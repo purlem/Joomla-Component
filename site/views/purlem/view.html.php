@@ -1,0 +1,1 @@
+<?php/** * Purlem View for Purlem Component *  * @package    Joomla.Tutorials * @subpackage Components * @license		GNU/GPL */jimport( 'joomla.application.component.view');/** * HTML View class for the Purlem Component * * @package		Joomla.Tutorials * @subpackage	Components */class PurlemViewPurlem extends JView{	function display($tpl = null)	{		}}?>

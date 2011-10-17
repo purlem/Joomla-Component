@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `#__purlem_config`;CREATE TABLE `#__purlem_config` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `purlemID` int(10) NOT NULL,  `purlemURI` varchar(255) NOT NULL,  `showPurlForm` varchar(25) NOT NULL,  `purlAPI` varchar(25) NOT NULL,  PRIMARY KEY (`id`)) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
