@@ -22,6 +22,7 @@ p {
 
 <div style="float:left; width:340px; margin-right:20px; border-right-width: 1px;border-right-style: solid;border-right-color: #CCC; text-align:center;">
 <p><img src="http://www.purlem.com/assets/images/logo_white.gif" width="300" height="84" alt="Purlem Personalized URL Marketing" /></p>
+<div style="margin-top:-10px;margin-bottom:30px;"><p><b><a href="http://support.purlem.com/entries/20557638-installing-purlem-s-joomla-component" target="_blank">View Tutorial</a></b></p></div>
 <h2>Step 1</h1>
 <p><a href="http://purlem.com/packages" target="_blank"><img src="http://purl-marketing.com/administrator/components/com_purlem/assets/images/button_createAccount.jpg" alt="Create Account" border="0"/></a></p>
 <h2>Step 2</h1>
