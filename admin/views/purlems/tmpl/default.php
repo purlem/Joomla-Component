@@ -56,9 +56,9 @@ $purlemid = $db->loadObject();
 if(!$purlemid) {
 	$purlemid->id='';
  	$purlemid->purlemID='';
-	$showPurlForm->showPurlForm='';
-	$purlAPI->purlAPI='';
-	$purlemURI->purlemURI='';
+	$purlemid->showPurlForm='';
+	$purlemid->purlAPI='';
+	$purlemid->purlemURI='';
 }
 
 ?>
