@@ -47,10 +47,12 @@ class PurlemController extends JController
 			$user = json_decode($data);
 	        $visitor='';          
 			if($user) {
-		 		$session=& JFactory::getSession();
-		  		if(JRequest::getVar('username')) $visitor=JRequest::getVar('username');
-		    	$session->set('visitor',$visitor);
-		  		if($user->{'login'} && ($session->get('visitor','') != $user->{'firstName'}.''.$user->{'lastName'})) { 
+		 		$session = JFactory::getSession();
+		  		if(JRequest::getVar('username')) {
+					$visitor=JRequest::getVar('username');
+		    		$session->set('visitor',$visitor);
+				}
+		  		if($user->{'login'} && ($session->get('visitor') != $user->{'firstName'}.$user->{'lastName'})) { 
 					echo $user->{'login'};
 		 			exit; 
 		 		}
