@@ -97,10 +97,9 @@ class PurlemController extends JController
 			$session=& JFactory::getSession();
 			$user=$session->get('users','');
 			if($user->{'content'}) {
-				if(!$user->{'firstName'}) {
-					echo $newContent .= '<b>PURL NOT FOUND</b> Please try again.';
-				}
 				$newContent = $this->purl_convert($user->{'content'});
+			} else {
+				$newContent = '<p>Page Not Found</p>';
 			}
 			return $newContent;
 		}
