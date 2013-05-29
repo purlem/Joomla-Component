@@ -41,7 +41,7 @@ p {
 <h2>Step 2</h1>
 <p style="font-size:16px;"><a href="http://support.purlem.com/entries/20556653-joomla-create-menu-item" target="_blank">Create Menu Item</a></p>
 <h2>Step 3</h1>
-<p style="font-size:16px;"><a href="http://purldash.com/dashboard/setup?default=joomla" target="_blank">Create a Joomla Campaign</a></p>
+<p style="font-size:16px;"><a href="http://purldash.com/dashboard/campaign/add/extensions" target="_blank">Create a Joomla Campaign</a></p>
 </div>
 
 
